@@ -1,5 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+
 import { NgModule } from '@angular/core';
+
+import { TimePickerModule } from 'shared/time-picker/time-picker.module';
 
 import { AppComponent } from './app.component';
 
@@ -8,7 +13,10 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    TimePickerModule,
+    CommonModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
