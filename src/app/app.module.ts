@@ -7,6 +7,7 @@ import { NgModule } from '@angular/core';
 import { TimePickerModule } from 'shared/time-picker/time-picker.module';
 
 import { AppComponent } from './app.component';
+import { PickerModule } from 'shared/picker/picker.module';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { AppComponent } from './app.component';
     TimePickerModule,
     CommonModule,
     FormsModule,
+    PickerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
