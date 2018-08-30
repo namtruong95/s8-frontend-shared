@@ -27,6 +27,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/mobile-select/mobile-select.css",
               "src/styles/styles.scss"
             ],
             "scripts": []
